@@ -44,11 +44,12 @@ function ArrLi(a){
 // – створити функцію, яка приймає масив об’єктів
 // з наступними полями id,name,age , та виводить їх в документ.
 // Для кожного об’єкту окремий блок.
-let person =[{
-    id: 1,
-    name: "John",
-    age: 5,
-},
+let person =[
+    {
+        id: 1,
+        name: "John",
+        age: 5,
+    },
     {
         id: 2,
         name: "Joe",
@@ -68,13 +69,13 @@ let person =[{
         id: 5,
         name: "John",
         age: 5,
-    }]
+    }
+    ]
 function objectLi(arr){
     for ( let value of arr){
             document.write(`<div>${value.id}, ${value.name}, ${value.age} </div>`);
     }
 }
-objectLi(person);
 
 
 

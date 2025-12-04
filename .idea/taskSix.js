@@ -74,5 +74,4 @@
 
  {title: `Frontend`, monthDuration: 4}
  ];
- function
 
