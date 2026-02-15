@@ -1,0 +1,131 @@
+
+#id {
+    width: 100px;
+    height: 100px;
+    background-color: #f1ae7d;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: #f1ae7d;
+}
+doby{
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerOne{
+    width: 90vw;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}.container{
+    width: 90vw;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+#text {
+    width: 150px;
+    height: 150px;
+    background-color: #f1ae7d;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#text button {
+    display: block;
+}
+
+
+form[action=""] {
+    width: 150px;
+    height: 150px;
+    background-color: #f1ae7d;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+#inputFrom {
+    width: 100px;
+    height: 20px;
+}
+
+
+form[name="formThree"] {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #f1ae7d;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+#TaskFour {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #f1ae7d;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+form.taskSix input {
+    width: 100px;
+    margin: 5px 0;
+}
+form.taskSix p {
+    width: 50px;
+}
+form.taskEight input{
+    width: 100px;
+    margin: 5px 0;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: auto;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ffe5d4;
+}
